@@ -1,0 +1,26 @@
+{
+  "name": "editor-demo",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/main.js",
+  "dependencies": {
+    "@material-ui/core": "^1.0.0",
+    "@material-ui/icons": "^1.0.0",
+    "codemirror": "^5.37.0",
+    "marked": "^0.4.0",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "electron:start": "ELECTRON_DEV=1 electron ."
+  },
+  "devDependencies": {
+    "electron": "^2.0.1"
+  }
+}
